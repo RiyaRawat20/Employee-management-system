@@ -1,0 +1,77 @@
+/* Page background */
+body {
+  background-color: #f5faff;
+  font-family: Arial, sans-serif;
+}
+
+/* Big light blue border container */
+.container {
+  border: 5px solid #8ecbff;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* Main heading */
+h1 {
+  text-align: center;
+  color: #1f3c88;
+  margin-bottom: 25px;
+}
+
+/* Inputs */
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: 1px solid #999;
+}
+
+/* ADD EMPLOYEE BUTTON – INDIGO */
+.add-btn {
+  padding: 10px 18px;
+  background-color: #4b0082; /* Indigo */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-btn:hover {
+  background-color: #3a0066;
+}
+
+/* DELETE BUTTON – NAVY / INDIGO */
+.delete-btn {
+  padding: 6px 12px;
+  background-color: #001f54; /* Navy Blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #00163d;
+}
+
+/* TABLE WITH CLEAR LINES */
+table {
+  width: 100%;
+  margin-top: 25px;
+  border-collapse: collapse;
+  border: 3px solid #1f3c88;
+}
+
+th, td {
+  border: 2px solid #1f3c88;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #dbeeff;
+  font-weight: bold;
+}
